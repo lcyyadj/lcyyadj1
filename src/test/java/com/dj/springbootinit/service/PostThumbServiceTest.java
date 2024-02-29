@@ -1,7 +1,9 @@
 package com.dj.springbootinit.service;
 
-import com.dj.springbootinit.model.entity.User;
+import com.dj.model.entity.User;
 import javax.annotation.Resource;
+
+import com.dj.service.PostThumbService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

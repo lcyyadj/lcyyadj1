@@ -1,9 +1,10 @@
 package com.dj.springbootinit.esdao;
 
-import com.dj.springbootinit.model.dto.post.PostEsDTO;
-import com.dj.springbootinit.model.dto.post.PostQueryRequest;
-import com.dj.springbootinit.model.entity.Post;
-import com.dj.springbootinit.service.PostService;
+import com.dj.esdao.PostEsDao;
+import com.dj.model.dto.post.PostEsDTO;
+import com.dj.model.dto.post.PostQueryRequest;
+import com.dj.model.entity.Post;
+import com.dj.service.PostService;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;

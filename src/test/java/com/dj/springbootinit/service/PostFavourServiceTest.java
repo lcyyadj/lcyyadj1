@@ -2,9 +2,11 @@ package com.dj.springbootinit.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.dj.springbootinit.model.entity.Post;
-import com.dj.springbootinit.model.entity.User;
+import com.dj.model.entity.Post;
+import com.dj.model.entity.User;
 import javax.annotation.Resource;
+
+import com.dj.service.PostFavourService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

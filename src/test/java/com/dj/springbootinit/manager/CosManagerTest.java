@@ -1,6 +1,8 @@
 package com.dj.springbootinit.manager;
 
 import javax.annotation.Resource;
+
+import com.dj.manager.CosManager;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
